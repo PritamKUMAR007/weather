@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Weather app</title>
    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+   <div class="search">
+      <input type="text" placeholder="Enter City Name" spellcheck="false">
+      <button>click</button>
+   </div>
    <div class="container">
       <div class="current-info">
-
          <div class="date-container">
             <div class="time" id="time">
                1:30<span id="am-pm">am</span>
@@ -20,76 +25,77 @@
             <div class="other" id="current-Weather-Items">
                <div class="weather-items">
                   <div>Humidity</div>
-                  <div>72%</div>
-              </div>
-              <div class="weather-items">
-                <div>Pressure</div>
-                <div>122</div>
-              </div>
-              <div class="weather-items">
+                  <div class="humidity">72%</div>
+               </div>
+               <div class="weather-items">
+                  <div>Pressure</div>
+                  <div>122</div>
+               </div>
+               <div class="weather-items">
                   <div>Windspeed</div>
-                   <div>180</div>
-              </div>
+                  <div>180</div>
+               </div>
 
             </div>
          </div>
          <div class="place-container">
             <div class="time-zone" id="time-zone">ASIA/Delhi</div>
-               <div id="country" class="country">IN</div>
+            <div id="country" class="country">IN</div>
          </div>
 
       </div>
-      
+
    </div>
    <div class="future-forecast">
       <div class="today" id="current-temp">
          <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
          <div class="other">
             <div class="day">Wednesday</div>
-         <div class="temp">Night - 25.6&#176; C</div>
-         <div class="temp">Day - 40.6&#176; C</div>
+            <div class="temp">Night - 25.6&#176; C</div>
+            <div class="temp">Day - 40.6&#176; C</div>
          </div>
-         
+
       </div>
       <div class="weather-forecast" id="weather-forecast">
          <div class="weather-forecast-item">
             <div class="day">Thur</div>
             <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
             <div class="temp">Night - 25.6&#176; C</div>
-          <div class="temp">Day - 40.6&#176; C</div>
+            <div class="temp">Day - 40.6&#176; C</div>
          </div>
          <div class="weather-forecast-item">
             <div class="day">Fri</div>
             <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
             <div class="temp">Night - 25.6&#176; C</div>
-          <div class="temp">Day - 40.6&#176; C</div>
+            <div class="temp">Day - 40.6&#176; C</div>
          </div>
          <div class="weather-forecast-item">
             <div class="day">Sat</div>
             <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
             <div class="temp">Night - 25.6&#176; C</div>
-          <div class="temp">Day - 40.6&#176; C</div>
+            <div class="temp">Day - 40.6&#176; C</div>
          </div>
          <div class="weather-forecast-item">
             <div class="day">Sun</div>
             <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
             <div class="temp">Night - 25.6&#176; C</div>
-          <div class="temp">Day - 40.6&#176; C</div>
+            <div class="temp">Day - 40.6&#176; C</div>
          </div>
          <div class="weather-forecast-item">
             <div class="day">Mon</div>
             <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
             <div class="temp">Night - 25.6&#176; C</div>
-          <div class="temp">Day - 40.6&#176; C</div>
+            <div class="temp">Day - 40.6&#176; C</div>
          </div>
          <div class="weather-forecast-item">
             <div class="day">Tue</div>
             <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
             <div class="temp">Night - 25.6&#176; C</div>
-          <div class="temp">Day - 40.6&#176; C</div>
+            <div class="temp">Day - 40.6&#176; C</div>
          </div>
       </div>
    </div>
    <script src="script.js"></script>
 </body>
+
 </html>
